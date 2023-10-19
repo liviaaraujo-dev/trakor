@@ -1,233 +1,266 @@
 @media (max-width: 800px) {
-    #team {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+  #team {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .team-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #team p {
+    width: 80%;
+  }
+
+  .team-tools {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #tools {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    padding: 0 2rem;
+    margin-top: 45rem;
+  }
+
+  #tools h2,
+  #tools h3,
+  #tools p {
+    text-align: left;
+  }
+
+  .tools-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  #tools p {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .tools-img img {
+    width: 90%;
+    margin-top: 2rem;
+  }
+
+  .tools-left ul li {
+    align-items: flex-start;
+
+    justify-items: flex-start;
+    text-align: left;
+  }
+
+  #team-management {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 2rem;
+    margin-top: 6rem;
+  }
+
+  #team-management h2,
+  #team-management h3,
+  #team-management p {
+    text-align: left;
+  }
+
+  .team-management-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  #team-management p {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .team-management-img img {
+    width: 90%;
+    margin-top: 2rem;
+  }
+
+  .team-management-left ul li {
+    align-items: flex-start;
+
+    justify-items: flex-start;
+    text-align: left;
+  }
+
+  #ultrices-risus {
+    flex-direction: column;
+    margin-left: 1rem;
+    padding: 2rem;
+  }
+
+  .text-ultrices-risus {
+    width: 100%;
+  }
+
+  #ultrices-risus img {
+    width: 100%;
+  }
+
+  .img-ultrices-risus {
+    margin-left: 0;
+  }
+
+  #control-flow {
+    flex-direction: column;
+  }
+
+  
+  #control-flow img{
+    width: 80%;
+  }
+
+  footer{
+    padding: 0 2rem;
+    padding-top: 5rem;
+
     }
-
-    .team-left {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #team p {
-        width: 80%;
-    }
-
-    .team-tools {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #tools {
-        flex-direction: column-reverse;
-        align-items: center;
-        text-align: center;
-        padding: 0 2rem;
-        margin-top: 45rem;
-    }
-
-    #tools h2,
-    #tools h3,
-    #tools p {
-        text-align: left;
-    }
-
-
-    .tools-left {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-left: 0;
-    }
-
-    #tools p {
-        width: 90%;
-        font-size: 16px;
-    }
-
-    .tools-img img {
-        width: 90%;
-        margin-top: 2rem;
-    }
-
-    .tools-left ul li {
-        align-items: flex-start;
-
-        justify-items: flex-start;
-        text-align: left;
-    }
-
-    #team-management {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 0 2rem;
-        margin-top: 6rem;
-    }
-
-    #team-management h2,
-    #team-management h3,
-    #team-management p {
-        text-align: left;
-    }
-
-
-    .team-management-left {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-left: 0;
-    }
-
-    #team-management p {
-        width: 90%;
-        font-size: 16px;
-    }
-
-    .team-management-img img {
-        width: 90%;
-        margin-top: 2rem;
-    }
-
-    .team-management-left ul li {
-        align-items: flex-start;
-
-        justify-items: flex-start;
-        text-align: left;
-    }
-
-    #ultrices-risus {
-        flex-direction: column;
-        margin-left: 1rem;
-        padding: 2rem;
-    }
-
-    .text-ultrices-risus {
-        width: 100%;
-    }
-
-    #ultrices-risus img {
-        width: 100%;
-    }
-
-    .img-ultrices-risus {
-        margin-left: 0;
-    }
+    
+  .footer-top{
+    flex-direction: column;
+    gap: 3rem;
+  }
 }
 
-
-
 @media (max-width: 500px) {
-    p {
-        font-size: 16px;
+  p {
+    font-size: 16px;
+  }
+
+  .header nav {
+    display: none;
+  }
+
+  #home {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #home h1 {
+    font-size: 46px;
+  }
+
+  #home p {
+    width: 90%;
+  }
+
+  .btns-home {
+    display: flex;
+    width: 90%;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    font-size: 16px;
+  }
+
+  #companies {
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .logos-companies {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #always-together {
+    text-align: center;
+  }
+
+  #always-together h2 {
+    font-size: 24px;
+  }
+
+  #always-together h3 {
+    font-size: 24px;
+  }
+
+  .btns-always-together {
+    display: flex;
+    width: 90%;
+  }
+
+  #team p {
+    width: 100%;
+  }
+
+  .team-img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #tools p {
+    width: 100%;
+  }
+
+  .tools-img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #tools h2 {
+    font-size: 24px;
+  }
+
+  #tools h3 {
+    font-size: 24px;
+  }
+
+  #team-management p {
+    width: 100%;
+  }
+
+  .team-management-img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #team-management h2 {
+    font-size: 24px;
+  }
+
+  #team-management h3 {
+    font-size: 24px;
+  }
+
+  #control-flow {
+    padding: 1rem;
     }
 
-
-
-    .header nav {
-        display: none;
+  #control-flow img{
+    width: 95%;
+    margin-top: 2rem;
     }
 
-    #home {
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-
-    #home h1 {
-        font-size: 46px;
-    }
-
-    #home p {
-        width: 90%;
-    }
-
-    .btns-home {
-        display: flex;
-        width: 90%;
-    }
-
-    .btn-primary,
-    .btn-secondary {
-
-        font-size: 16px;
-    }
-
-    #companies {
-        justify-items: center;
-        align-items: center;
-        text-align: center;
-    }
-
-    .logos-companies {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    #always-together {
-        text-align: center;
-    }
-
-    #always-together h2 {
+    #control-flow h2 {
         font-size: 24px;
     }
 
-    #always-together h3 {
+    #control-flow h3 {
         font-size: 24px;
     }
 
-    .btns-always-together {
-        display: flex;
-        width: 90%;
-    }
-
-    #team p {
-        width: 100%;
-    }
-
-    .team-img img {
-        width: 100%;
-        height: 100%;
-    }
-
-    #tools p {
-        width: 100%;
-    }
-
-    .tools-img img {
-        width: 100%;
-        height: 100%;
-    }
-
-    #tools h2 {
-        font-size: 24px;
-    }
-
-    #tools h3 {
-        font-size: 24px;
-    }
-
-    #team-management p {
-        width: 100%;
-    }
-
-    .team-management-img img {
-        width: 100%;
-        height: 100%;
-    }
-
-    #team-management h2 {
-        font-size: 24px;
-    }
-
-    #team-management h3 {
-        font-size: 24px;
-    }
+    
+    
 }

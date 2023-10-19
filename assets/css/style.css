@@ -394,3 +394,31 @@ button {
     margin-bottom: 1.5rem;
     width: 90%;
 }
+
+footer{
+    padding: 0 4rem;
+    background-color: var(--gray-700);
+    padding-top: 4rem;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-footer-top{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.item-footer-top h5{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.item-footer-top a{
+    font-size: 18px;
+    color: white;
+}

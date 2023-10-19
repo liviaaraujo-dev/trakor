@@ -1,0 +1,76 @@
+
+/*  telas pequenas, laptops */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* ========== Home ========= */
+  #home p {
+    width: 90%;
+  }
+}
+
+/* iPads, tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+
+  /* ========== Home ========= */
+  #home {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #home p {
+    width: 90%;
+    margin: 1rem 0;
+  }
+
+  /* ========== Companies ========= */
+  #companies {
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .logos-companies {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* dispositivos móveis */
+@media (max-width: 480px) {
+  h2 {
+    font-size: 48px;
+  }
+
+  .btn-primary {
+    width: 11rem;
+  }
+
+  /* ========== Home ========= */
+  #home {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #home p {
+    width: 90%;
+    margin: 1rem 0;
+  }
+
+  .btns-home {
+    gap: 0.6rem;
+  }
+
+  /* ========== Companies ========= */
+  #companies {
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .logos-companies {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
