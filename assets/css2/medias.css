@@ -6,6 +6,22 @@
   #home p {
     width: 90%;
   }
+
+  .team-text {
+    width: 40%;
+  }
+
+  .team-img {
+    width: 60%;
+  }
+
+  .team-img img{
+    width: 80%;
+  }
+
+  .team-text p{
+    width: 90%;
+  }
 }
 
 /* iPads, tablets */
@@ -33,6 +49,24 @@
   .logos-companies {
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  /* ========== Team ========= */
+  #team {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .team-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #team p { 
+    width: 80%;
   }
 }
 
@@ -72,5 +106,25 @@
   .logos-companies {
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+
+
+/* ========== Always Together ========= */
+  #always-together {
+    text-align: center;
+  }
+
+  #always-together h2 {
+    font-size: 24px;
+  }
+
+  #always-together h3 {
+    font-size: 24px;
+  }
+
+  .btns-always-together {
+    display: flex;
+    width: 90%;
   }
 }

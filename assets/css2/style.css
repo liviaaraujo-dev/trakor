@@ -142,3 +142,31 @@ button {
     font-weight: bold;
     margin-bottom: 2rem;
 }
+
+/* ========== Team ========= */
+#team {
+    display: flex;
+    padding: 0 4rem;
+}
+
+#team h2 {
+    font-size: 56px;
+    color: white;
+}
+
+#team h3 {
+    color: var(--blue-400);
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.team-text {
+    width: 50%;
+}
+
+
+.team-text p {
+    width: 85%;
+    font-size: 18px;
+}
