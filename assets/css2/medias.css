@@ -36,6 +36,17 @@
     width: 60%;
     margin-left: 1rem;
   }
+
+  /* ==========ultrices-risus=========*/
+  .img-ultrices-risus {
+    margin-left: 0;
+    width: 50%;
+    margin-left: 4rem;
+  }
+
+  .img-ultrices-risus img {
+    width: 100%;
+  }
 }
 
 /* iPads, tablets */
@@ -149,6 +160,27 @@
   }
 
   .team-management-left {
+    width: 100%;
+  }
+
+  /* ==========ultrices-risus=========*/
+  #ultrices-risus {
+    flex-direction: column;
+    margin-left: 1rem;
+    padding: 2rem;
+  }
+
+  .text-ultrices-risus {
+    width: 100%;
+  }
+
+
+  .img-ultrices-risus {
+    margin-left: 0;
+    width: 90%;
+  }
+
+  .img-ultrices-risus img {
     width: 100%;
   }
 }
@@ -347,4 +379,35 @@
 
   }
 
+  /* ==========ultrices-risus=========*/
+  #ultrices-risus {
+    flex-direction: column;
+    margin-left: 1rem;
+    padding: 2rem;
+  }
+
+  .text-ultrices-risus {
+    width: 100%;
+  }
+
+  #ultrices-risus h2 {
+    font-size: 24px;
+  }
+
+
+  .img-ultrices-risus {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .img-ultrices-risus img {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 320px) {
+  .team-management-img img {
+    width: 16rem;
+  }
 }

@@ -300,3 +300,35 @@ button {
 #team-management button {
     margin-top: 2rem;
 }
+
+/* ========== ultrices-risus ========= */
+#ultrices-risus {
+    border: 1px solid var(--gray-600);
+    width: 90%;
+    border-radius: 20px;
+    margin-left: 4rem;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 2rem;
+    margin-top: 10rem;
+}
+
+#ultrices-risus h2 {
+    font-size: 32px;
+}
+
+.text-ultrices-risus {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.text-ultrices-risus p {
+    margin: 1.5rem 0;
+}
+
+.img-ultrices-risus {
+    margin-left: 5rem;
+}
