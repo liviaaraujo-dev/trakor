@@ -142,12 +142,25 @@
     justify-items: flex-start;
     text-align: left;
   }
+
+  /* ==========Team- Management=========*/
+  #team-management {
+    flex-direction: column;
+  }
+
+  .team-management-left {
+    width: 100%;
+  }
 }
 
 /* dispositivos móveis */
 @media (max-width: 480px) {
   h2 {
     font-size: 48px;
+  }
+
+  p {
+    font-size: 16px;
   }
 
   .btn-primary {
@@ -306,6 +319,32 @@
     align-items: flex-start;
     justify-items: flex-start;
     text-align: left;
+  }
+
+  /* ==========Team- Management=========*/
+  #team-management {
+    flex-direction: column;
+    padding: 0 2rem;
+  }
+
+  #team-management p {
+    width: 100%;
+  }
+
+
+  .team-management-left {
+    width: 100%;
+  }
+
+  #team-management h2,
+  #team-management h3 {
+    font-size: 24px;
+  }
+
+  .team-management-img {
+    height: 25rem;
+    margin-top: 2rem;
+
   }
 
 }
