@@ -1,4 +1,3 @@
-
 /*  telas pequenas, laptops */
 @media (min-width: 768px) and (max-width: 1024px) {
 
@@ -7,20 +6,35 @@
     width: 90%;
   }
 
+  /* ========== Team ========= */
   .team-text {
     width: 40%;
+    margin-right: 4rem;
   }
 
   .team-img {
     width: 60%;
   }
 
-  .team-img img{
+  .team-img img {
+    width: 90%;
+  }
+
+  .team-text p {
+    width: 100%;
+  }
+
+  .tools-img {
+    /* width: 40%; */
+  }
+
+  .tools-img img {
     width: 80%;
   }
 
-  .team-text p{
-    width: 90%;
+  .tools-text {
+    width: 60%;
+    margin-left: 1rem;
   }
 }
 
@@ -65,8 +79,68 @@
     align-items: center;
   }
 
-  #team p { 
+  .team-text p {
     width: 80%;
+  }
+
+  .team-img {
+    width: 90%;
+    margin-top: 2rem;
+  }
+
+  /* ==========Section Destok Img=========*/
+  #section-destok-img .background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #section-destok-imgimg {
+    height: 20rem;
+    width: 67%;
+  }
+
+  .team-tools {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* ==========Tools=========*/
+  #tools {
+    flex-direction: column-reverse;
+  }
+
+  #tools h2,
+  #tools h3,
+  #tools p {
+    text-align: left;
+  }
+
+  .tools-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  #tools p {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .tools-img img {
+    width: 90%;
+    margin-top: 2rem;
+  }
+
+  .tools-text ul li {
+    align-items: flex-start;
+
+    justify-items: flex-start;
+    text-align: left;
   }
 }
 
@@ -110,7 +184,7 @@
 
 
 
-/* ========== Always Together ========= */
+  /* ========== Always Together ========= */
   #always-together {
     text-align: center;
   }
@@ -127,4 +201,111 @@
     display: flex;
     width: 90%;
   }
+
+  /* ========== Team ========= */
+  #team {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 2rem;
+  }
+
+  #team h2 {
+    font-size: 24px;
+  }
+
+  #team h3 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+
+  .team-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-text p {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .team-img {
+    width: 100%;
+  }
+
+  .team-img img {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  /* ==========Section Destok Img=========*/
+  #section-destok-img .background {
+    height: 15rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #section-destok-img h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  #section-destok-img img {
+    height: 17rem;
+    width: 80%;
+  }
+
+  .team-tools {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* ==========Tools=========*/
+  #tools {
+    flex-direction: column-reverse;
+    padding: 0 2rem;
+    margin-top: 15rem;
+  }
+
+  #tools h2,
+  #tools h3 {
+    font-size: 24px;
+  }
+
+  #tools h2,
+  #tools h3,
+  #tools p {
+    text-align: left;
+  }
+
+  .tools-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  #tools p {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .tools-img img {
+    width: 90%;
+    margin-top: 2rem;
+  }
+
+  .tools-text ul li {
+    align-items: flex-start;
+    justify-items: flex-start;
+    text-align: left;
+  }
+
 }

@@ -95,7 +95,7 @@ button {
     margin-top: 2rem;
 }
 
-.btns-home{
+.btns-home {
     display: flex;
     gap: 1.5rem;
 }
@@ -163,10 +163,140 @@ button {
 
 .team-text {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-
 
 .team-text p {
     width: 85%;
     font-size: 18px;
+}
+
+/* ========== Section Destok Img ========= */
+#section-destok-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+#section-destok-img .background {
+    height: 30rem;
+    background-color: var(--primary);
+    padding-top: 4rem;
+}
+
+#section-destok-img h2 {
+    font-size: 56px;
+    color: white;
+    text-align: center;
+    width: 90%;
+}
+
+#section-destok-img img {
+    height: 35rem;
+    width: 70%;
+    margin-top: 2rem;
+}
+
+/* ========== Tools ========= */
+#tools {
+    display: flex;
+    padding: 0 4rem;
+    margin-top: 30rem;
+    align-items: center;
+}
+
+.tools-img img {
+    height: 90%;
+}
+
+#tools h2 {
+    font-size: 56px;
+    color: white;
+}
+
+#tools h3 {
+    color: var(--blue-400);
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.tools-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4rem;
+}
+
+.tools-text p {
+    width: 85%;
+    font-size: 18px;
+}
+
+.tools-text ul {
+    margin-top: 2rem;
+}
+
+.tools-text ul li {
+    display: flex;
+    gap: 1rem;
+}
+
+.tools-text button {
+    margin-top: 2rem;
+}
+
+/* ========== Team- Management ========= */
+#team-management {
+    display: flex;
+    padding: 0 4rem;
+    margin-top: 10rem;
+    align-items: center;
+}
+
+.team-management-img img {
+    height: 90%;
+}
+
+#team-management h2 {
+    font-size: 56px;
+    color: white;
+}
+
+#team-management h3 {
+    color: var(--blue-400);
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.team-management-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#team-management p {
+    width: 85%;
+    font-size: 18px;
+}
+
+#team-management ul {
+    margin-top: 2rem;
+}
+
+#team-management ul li {
+    display: flex;
+    gap: 1rem;
+}
+
+#team-management button {
+    margin-top: 2rem;
 }
