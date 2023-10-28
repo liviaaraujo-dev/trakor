@@ -11,4 +11,4 @@ Clique no link para visualizar o projeto
 - CSS
 - JavaScript
 
-![GitHub Logo](images/print.png)
+![Print Projeto](assets/images/print.png)
