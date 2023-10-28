@@ -1,19 +1,261 @@
-@media (max-width: 800px) {
+@media (min-width: 2400px) {
   #team {
+    display: flex;
+    align-items: center;
+    padding: 0 4rem;
+    justify-content: center;
+  }
+
+  #tools {
+    justify-content: center;
+  }
+
+  #team-management {
+    justify-content: center;
+  }
+
+  #section-desktop-img .background {
+    width: 100%;
+    margin-bottom: 15rem;
+    margin-top: 8rem;
+  }
+
+  #section-desktop-img img {
+    height: 50rem;
+    width: 57%;
+    margin-top: 2rem;
+  }
+}
+
+/*  telas pequenas, laptops */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* ========== Header ========= */
+  .header nav {
+    display: none;
+  }
+
+  .header {
     flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu-top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .btn-login {
+    display: none;
+  }
+
+  .header .btn-secondary {
+    display: none;
+  }
+
+  .btn-menu {
+    background-color: transparent;
+    border: none;
+    display: flex;
+  }
+
+  .header .btn-secondary {
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mobile nav,
+  .mobile .btn-login,
+  .mobile .btn-secondary {
+    display: flex;
+  }
+
+  .mobile nav ul {
+    flex-direction: column;
+  }
+
+  /* ========== Home ========= */
+  #home p {
+    width: 90%;
+  }
+
+  /* ========== Team ========= */
+  .team-text {
+    width: 40%;
+    margin-right: 4rem;
+  }
+
+  .team-img {
+    width: 60%;
+  }
+
+  .team-img img {
+    width: 90%;
+  }
+
+  .team-text p {
+    width: 100%;
+  }
+
+  /* ==========Tools=========*/
+  .tools-img {
+    /* width: 40%; */
+  }
+
+  .tools-img img {
+    width: 80%;
+  }
+
+  .tools-text {
+    width: 60%;
+    margin-left: 1rem;
+  }
+
+  /* ==========ultrices-risus=========*/
+  .img-ultrices-risus {
+    margin-left: 0;
+    width: 50%;
+    margin-left: 4rem;
+  }
+
+  .img-ultrices-risus img {
+    width: 100%;
+  }
+
+  .team-management-img img {
+    /* height: 28rem; */
+    width: 90%;
+    margin-top: 2rem;
+  }
+
+  #control-flow {
+    align-items: center;
+  }
+
+  #control-flow img {
+    height: 28rem;
+    width: 90%;
+  }
+
+  .text-control-flow {
+    width: 50%;
+  }
+
+  #control-flow p {
+    width: 100%;
+  }
+}
+
+/* iPads, tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+
+  /*==========Header=========*/
+  .header nav {
+    display: none;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu-top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .btn-login {
+    display: none;
+  }
+
+  .header .btn-secondary {
+    display: none;
+  }
+
+  .btn-menu {
+    background-color: transparent;
+    border: none;
+    display: flex;
+  }
+
+  .header .btn-secondary {
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mobile nav,
+  .mobile .btn-login,
+  .mobile .btn-secondary {
+    display: flex;
+  }
+
+  .mobile nav ul {
+    flex-direction: column;
+  }
+
+  /* ========== Home ========= */
+  #home {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #home p {
+    width: 90%;
+    margin: 1rem 0;
+  }
+
+  /* ========== Companies ========= */
+  #companies {
+    justify-items: center;
     align-items: center;
     text-align: center;
   }
 
-  .team-left {
+  .logos-companies {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* ========== Team ========= */
+  #team {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     width: 100%;
+  }
+
+  .team-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .team-text p {
+    width: 100%;
+  }
+
+  .team-img {
+    width: 90%;
+    margin-top: 2rem;
+  }
+
+  /* ==========Section desktop Img=========*/
+  #section-desktop-img .background {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  #team p {
-    width: 80%;
+  #section-desktop-imgimg {
+    height: 20rem;
+    width: 67%;
   }
 
   .team-tools {
@@ -23,12 +265,9 @@
     align-items: center;
   }
 
+  /* ==========Tools=========*/
   #tools {
     flex-direction: column-reverse;
-    align-items: center;
-    text-align: center;
-    padding: 0 2rem;
-    margin-top: 45rem;
   }
 
   #tools h2,
@@ -37,7 +276,7 @@
     text-align: left;
   }
 
-  .tools-left {
+  .tools-text {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -55,52 +294,23 @@
     margin-top: 2rem;
   }
 
-  .tools-left ul li {
+  .tools-text ul li {
     align-items: flex-start;
 
     justify-items: flex-start;
     text-align: left;
   }
 
+  /* ==========Team- Management=========*/
   #team-management {
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 0 2rem;
-    margin-top: 6rem;
-  }
-
-  #team-management h2,
-  #team-management h3,
-  #team-management p {
-    text-align: left;
   }
 
   .team-management-left {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 0;
   }
 
-  #team-management p {
-    width: 90%;
-    font-size: 16px;
-  }
-
-  .team-management-img img {
-    width: 90%;
-    margin-top: 2rem;
-  }
-
-  .team-management-left ul li {
-    align-items: flex-start;
-
-    justify-items: flex-start;
-    text-align: left;
-  }
-
+  /* ==========ultrices-risus=========*/
   #ultrices-risus {
     flex-direction: column;
     margin-left: 1rem;
@@ -111,68 +321,138 @@
     width: 100%;
   }
 
-  #ultrices-risus img {
+  .img-ultrices-risus {
+    margin-left: 0;
+    width: 90%;
+  }
+
+  .img-ultrices-risus img {
     width: 100%;
   }
 
-  .img-ultrices-risus {
-    margin-left: 0;
-  }
-
+  /* ========== Control flow =========*/
   #control-flow {
     flex-direction: column;
+    padding-top: 4rem;
   }
 
-  
-  #control-flow img{
-    width: 80%;
+  #control-flow img {
+    height: 30rem;
   }
 
-  footer{
-    padding: 0 2rem;
-    padding-top: 5rem;
+  .text-control-flow {
+    width: 90%;
+  }
 
-    }
-    
-  .footer-top{
+  /* ========== footer =========*/
+  .footer-top {
+    /* flex-direction: column; */
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #footer-bottom {
     flex-direction: column;
-    gap: 3rem;
+  }
+
+  #footer-bottom .left {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-bottom {
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
   }
 }
 
-@media (max-width: 500px) {
+/* dispositivos móveis */
+@media (max-width: 480px) {
+
+  h2 {
+    font-size: 48px;
+  }
+
   p {
     font-size: 16px;
   }
 
+  /*==========Header=========*/
   .header nav {
     display: none;
   }
 
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .menu-top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .btn-login {
+    display: none;
+  }
+
+  .header .btn-secondary {
+    display: none;
+  }
+
+  .btn-menu {
+    background-color: transparent;
+    border: none;
+    display: flex;
+  }
+
+  .header .btn-secondary {
+    margin-top: 1.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mobile nav,
+  .mobile .btn-login,
+  .mobile .btn-secondary {
+    display: flex;
+  }
+
+  .mobile nav ul {
+    flex-direction: column;
+  }
+
+  .btn-primary {
+    width: 11rem;
+    font-size: 16px;
+  }
+
+  .btn-secondary {
+    font-size: 16px;
+  }
+
+  /* ========== Home ========= */
   #home {
     align-items: center;
     justify-content: center;
     text-align: center;
   }
 
-  #home h1 {
-    font-size: 46px;
-  }
-
   #home p {
     width: 90%;
+    margin: 1rem 0;
   }
 
   .btns-home {
-    display: flex;
-    width: 90%;
+    gap: 0.6rem;
   }
 
-  .btn-primary,
-  .btn-secondary {
-    font-size: 16px;
-  }
-
+  /* ========== Companies ========= */
   #companies {
     justify-items: center;
     align-items: center;
@@ -184,6 +464,7 @@
     justify-content: center;
   }
 
+  /* ========== Always Together ========= */
   #always-together {
     text-align: center;
   }
@@ -201,66 +482,227 @@
     width: 90%;
   }
 
-  #team p {
+  /* ========== Team ========= */
+  #team {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 2rem;
+  }
+
+  #team h2 {
+    font-size: 24px;
+  }
+
+  #team h3 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+
+  .team-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-text p {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .team-img {
     width: 100%;
   }
 
   .team-img img {
     width: 100%;
-    height: 100%;
+    margin-top: 2rem;
+  }
+
+  /* ==========Section desktop Img=========*/
+  #section-desktop-img .background {
+    height: 15rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #section-desktop-img h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  #section-desktop-img img {
+    height: 17rem;
+    width: 80%;
+  }
+
+  .team-tools {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* ==========Tools=========*/
+  #tools {
+    flex-direction: column-reverse;
+    padding: 0 2rem;
+    margin-top: 15rem;
+  }
+
+  #tools h2,
+  #tools h3 {
+    font-size: 24px;
+  }
+
+  #tools h2,
+  #tools h3,
+  #tools p {
+    text-align: left;
+  }
+
+  .tools-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
   }
 
   #tools p {
-    width: 100%;
+    width: 90%;
+    font-size: 16px;
   }
 
   .tools-img img {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    margin-top: 2rem;
   }
 
-  #tools h2 {
-    font-size: 24px;
+  .tools-text ul li {
+    align-items: flex-start;
+    justify-items: flex-start;
+    text-align: left;
   }
 
-  #tools h3 {
-    font-size: 24px;
+  /* ==========Team- Management=========*/
+  #team-management {
+    flex-direction: column;
+    padding: 0 2rem;
   }
 
   #team-management p {
     width: 100%;
   }
 
-  .team-management-img img {
+  .team-management-left {
     width: 100%;
-    height: 100%;
   }
 
-  #team-management h2 {
-    font-size: 24px;
-  }
-
+  #team-management h2,
   #team-management h3 {
     font-size: 24px;
   }
 
-  #control-flow {
-    padding: 1rem;
-    }
-
-  #control-flow img{
-    width: 95%;
+  .team-management-img {
+    height: 25rem;
     margin-top: 2rem;
-    }
+  }
 
-    #control-flow h2 {
-        font-size: 24px;
-    }
+  /* ==========ultrices-risus=========*/
+  #ultrices-risus {
+    flex-direction: column;
+    margin-left: 1rem;
+    padding: 2rem;
+  }
 
-    #control-flow h3 {
-        font-size: 24px;
-    }
+  .text-ultrices-risus {
+    width: 100%;
+  }
 
-    
-    
+  #ultrices-risus h2 {
+    font-size: 24px;
+  }
+
+  .img-ultrices-risus {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .img-ultrices-risus img {
+    width: 100%;
+  }
+
+  /* ========== Control flow =========*/
+  #control-flow {
+    flex-direction: column;
+    padding-top: 4rem;
+    padding-left: 2rem;
+  }
+
+  #control-flow img {
+    height: 16rem;
+    width: 90%;
+    margin-top: 2rem;
+  }
+
+  .text-control-flow {
+    width: 90%;
+  }
+
+  #control-flow h2 {
+    font-size: 24px;
+  }
+
+  #control-flow h3 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+
+  /* ========== footer =========*/
+  footer {
+    padding-left: 2rem;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  #footer-bottom {
+    flex-direction: column;
+  }
+
+  #footer-bottom .left {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 2rem;
+  }
+
+  #social-networks {
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 376px) {
+  .team-management-img img {
+    width: 16rem;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    width: 8rem;
+  }
+
+  .team-management-img img {
+    height: 58%;
+  }
 }

@@ -22,7 +22,7 @@ body {
 
 h1 {
     color: white;
-    font-size: 36px;
+    /* font-size: 36px; */
     font-weight: bold;
 }
 
@@ -49,6 +49,19 @@ button {
     cursor: pointer;
 }
 
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 20,
+        'wght' 700,
+        'GRAD' 0,
+        'opsz' 48;
+    color: #CBD5E1;
+    /* font-size: 36px; */
+
+}
+
+
+
 .btn-primary {
     background-color: var(--primary);
     font-size: 20px;
@@ -58,7 +71,6 @@ button {
     border-radius: 6px;
     width: 13rem;
     padding: .6rem 0;
-    margin-right: 1rem;
 }
 
 .btn-secondary {
@@ -107,6 +119,20 @@ button {
     margin-right: 1rem;
 }
 
+.btn-menu {
+    display: none;
+}
+
+.btn-menu-close {
+    display: none;
+    background-color: transparent;
+    border: none;
+}
+
+.btn-menu-close img {
+    height: 2.8rem;
+}
+
 /* ========== Home ========= */
 #home {
     display: flex;
@@ -128,7 +154,14 @@ button {
 
 #home img {
     height: 40%;
+    margin-top: 2rem;
 }
+
+.btns-home {
+    display: flex;
+    gap: 1.5rem;
+}
+
 
 /* ========== Companies ========= */
 #companies {
@@ -150,6 +183,7 @@ button {
     flex-direction: row;
     gap: 2rem;
 }
+
 
 /* ========== Always Together ========= */
 #always-together {
@@ -189,18 +223,20 @@ button {
     margin-bottom: 2rem;
 }
 
-.team-left {
+.team-text {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-
-#team p {
+.team-text p {
     width: 85%;
     font-size: 18px;
 }
 
-/* ========== Section Destok Img ========= */
-#section-destok-img {
+/* ========== Section desktop Img ========= */
+#section-desktop-img {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -209,22 +245,21 @@ button {
     margin-top: 5rem;
 }
 
-#section-destok-img .background {
+#section-desktop-img .background {
     height: 30rem;
     background-color: var(--primary);
     padding-top: 4rem;
 }
 
-
-#section-destok-img h2 {
+#section-desktop-img h2 {
     font-size: 56px;
     color: white;
     text-align: center;
     width: 90%;
 }
 
-#section-destok-img img {
-    height: 40rem;
+#section-desktop-img img {
+    height: 35rem;
     width: 70%;
     margin-top: 2rem;
 }
@@ -253,7 +288,7 @@ button {
     margin-bottom: 1rem;
 }
 
-.tools-left {
+.tools-text {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -261,25 +296,25 @@ button {
     margin-left: 4rem;
 }
 
-#tools p {
+.tools-text p {
     width: 85%;
     font-size: 18px;
 }
 
-#tools ul {
+.tools-text ul {
     margin-top: 2rem;
 }
 
-#tools ul li {
+.tools-text ul li {
     display: flex;
     gap: 1rem;
 }
 
-#tools button {
+.tools-text button {
     margin-top: 2rem;
 }
 
-/* ========== Tools ========= */
+/* ========== Team- Management ========= */
 #team-management {
     display: flex;
     padding: 0 4rem;
@@ -328,12 +363,7 @@ button {
     margin-top: 2rem;
 }
 
-.btns-always-together {
-    margin-top: 2rem;
-}
-
 /* ========== ultrices-risus ========= */
-
 #ultrices-risus {
     border: 1px solid var(--gray-600);
     width: 90%;
@@ -365,6 +395,7 @@ button {
     margin-left: 5rem;
 }
 
+/* ========= Control Flow */
 #control-flow {
     background-color: var(--gray-800);
     display: flex;
@@ -395,30 +426,72 @@ button {
     width: 90%;
 }
 
-footer{
-    padding: 0 4rem;
-    background-color: var(--gray-700);
-    padding-top: 4rem;
+.btns-always-together {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 2rem;
 }
 
-.footer-top{
+footer {
+    background-color: var(--gray-700);
+    padding: 4rem 4rem 2rem 4rem;
+}
+
+.footer-top {
     display: flex;
     justify-content: space-between;
 }
 
-.item-footer-top{
+.item-footer-top {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
 }
 
-.item-footer-top h5{
+.item-footer-top h5 {
     font-size: 20px;
     color: white;
     font-weight: 700;
 }
 
-.item-footer-top a{
+.item-footer-top a {
     font-size: 18px;
     color: white;
+}
+
+#footer-bottom {
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-between;
+}
+
+#footer-bottom .left {
+    display: flex;
+    gap: 3rem;
+}
+
+.text-bottom {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-bottom a {
+    font-size: 18px;
+    color: white;
+}
+
+#social-networks {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+#stores-apps {
+    display: flex;
+    gap: 1rem;
 }
